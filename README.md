@@ -6,6 +6,6 @@ It began on Feb 22, 2024.
 The latest update was Apr 6, 2024.
 
 Languages/Tools/Frameworks used:
-HTML
-Javascript (React, Node, Next, Typescript)
-CSS (Tailwind)
+HTML,
+Javascript (React, Node, Next, Typescript),
+CSS (Tailwind).
