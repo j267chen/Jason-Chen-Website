@@ -7,5 +7,5 @@ The latest update was Apr 6, 2024.
 
 Languages/Tools/Frameworks used:
 HTML
-Javascript (React, Node, Vite)
+Javascript (React, Node, Next, Typescript)
 CSS (Tailwind)
