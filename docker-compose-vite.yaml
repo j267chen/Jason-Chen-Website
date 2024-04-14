@@ -2,12 +2,12 @@ version: "3.8"
 
 services:
   backend:
-    build: ./backend
+    build: ./vite/backend
     networks:
       - network
 
   frontend:
-    build: ./frontend-vite
+    build: ./vite/frontend
     ports:
       - "80:80"
       - "443:443"

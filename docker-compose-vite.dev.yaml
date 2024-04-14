@@ -3,8 +3,10 @@ version: "3.8"
 services:
   backend:
     build:
-      context: ./backend
+      context: ./vite/backend
       dockerfile: Dockerfile.dev
+    volumes:
+      - ./backend:/app
     ports:
       - "3001:3001"
     networks:
@@ -12,8 +14,11 @@ services:
 
   frontend:
     build:
-      context: ./frontend-vite
+      context: ./vite/frontend
       dockerfile: Dockerfile.dev
+    volumes:
+      - ./vite/frontend:/app
+      - /app/node_modules
     ports:
       - "3000:3000"
     networks:
