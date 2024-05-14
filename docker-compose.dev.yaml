@@ -6,7 +6,7 @@ services:
       context: ./vite/backend
       dockerfile: Dockerfile.dev
     volumes:
-      - ./backend:/app
+      - ./vite/backend:/app
     ports:
       - "3001:3001"
     networks:
@@ -20,7 +20,7 @@ services:
       - ./vite/frontend:/app
       - /app/node_modules
     ports:
-      - "3000:3000"
+      - "5173:5173"
     networks:
       - network
 

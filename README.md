@@ -15,9 +15,10 @@ CSS (Tailwind).
 
 ### To SSR dev run the site locally:
 ```bash
-docker-compose -f docker-compose-next.dev.yaml up
+cd next
+npm run dev
 ```
 ### To CSR dev run the site locally:
 ```bash
-docker-compose -f docker-compose-vite.dev.yaml up
+docker-compose -f docker-compose.dev.yaml up
 ```

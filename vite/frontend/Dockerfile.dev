@@ -4,15 +4,15 @@ FROM --platform=linux/amd64 node:lts-alpine3.19
 # set working directory
 WORKDIR /app
 
+ENV PATH /app/node_modules/.bin:$PATH
+
 # install app dependencies
 COPY package.json ./
+RUN npm i vite
 RUN npm install --silent
 
-# add app
-COPY . ./
-
-# Expose port 3000 to access the server
-EXPOSE 3000
+# Expose port 5173 to access the server
+EXPOSE 5173
 
 # start app
 CMD ["npm", "run", "dev"]
