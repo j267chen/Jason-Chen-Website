@@ -215,7 +215,7 @@ export const PROJECTS = [
       "Introducing my cutting-edge mechanical keyboard, an ongoing project built from complete scratch! From the switches and keycaps to the PCB board and drivers. It's designed for the ultimate typing experience. With linear switches, RGB lighting, and a X ms delay, it combines style and functionality.",
     link: "/P1",
     target: "",
-    date: "Mar 2024 - Present",
+    date: "May 2024 - Present",
     type: "mechanical"
   },
   {
@@ -238,7 +238,7 @@ export const PROJECTS = [
     link: "/P2",
     target: "",
     date: "",
-    type: "electrical"
+    type: ""
   },
   {
     iconUrl: rocket,
