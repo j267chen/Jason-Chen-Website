@@ -214,7 +214,7 @@ export const PROJECTS = [
     theme: "btn-back-green",
     name: "Mindbridge",
     description: 'Co-built a WebApp that bridges communicative barriers for children on the spectrum, garnering a win against 300 others in a MLH Hackathon',
-    link: "www.mindbridge.com",
+    link: "https://www.mindbridge.study",
     target: "_blank",
     date: "Mar 2024",
     type: "software"
