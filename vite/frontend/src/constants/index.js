@@ -70,11 +70,11 @@ export const SKILLS = [
     name: "Fusion360",
     type: "3D CAD",
   },
-  {
-    imageUrl: revit,
-    name: "Revit",
-    type: "Building Information Modelling (BIM)",
-  },
+  //{
+    //imageUrl: revit,
+    //name: "Revit",
+    //type: "Building Information Modelling (BIM)",
+  //},
 
   {
     imageUrl: cpp,
@@ -154,26 +154,17 @@ export const returnhome = [
 // experiences
 export const EXPERIENCES = [
   {
-    title: "Firmware Subteam Member",
-    company_name: "UW Formula Electric",
-    icon: uwfe,
-    iconBg: "#fbc3bc",
-    date: "Apr 2024 - Present",
-    points: [
-      "",
-    ],
-  },
-  {
     title: "Mechanical Designer Co-op",
     company_name: "UW Midnight Sun",
     icon: uwms,
     iconBg: "#fac36b",
     date: "Jan 2024 - Present",
     points: [
-      "INCOMPLETE",
-      "surface modelling",
-      "paper and solidworks simulated FEA of fasteners (for clamp failure) and determined the minimal amount needed on the car",
-      "rapid modelling (concept to reality and reality to modeL) and prototyping of parts. saved material costs ...",
+      "I performed part failure analysis through SolidWorks FEA to identify minimal amount/size",
+      "I developed R&D experiments to validate product performance",
+      "I modelled, drew, and prototyped 18 DFM/A vehicle parts under comp regulations for CNC waterjetting and manufacturing",
+      "I presented design logs for feedback, ensuring alignment with project objectives while creating a repo for future integrity",
+      "I operated machinery to fabricate the vehicle's steering mechanism",
     ],
   },
   {
@@ -183,7 +174,7 @@ export const EXPERIENCES = [
     iconBg: "#fbc3bc",
     date: "Sep 2023 - Dec 2023",
     points: [
-      "I designed an omnidirectional motor stand in Solidworks to establish precise positioning during water dyno tuning. I've also created a mounting jig for part welding.",
+      "I collaborated on designing a bidirectional motor stand that was used to establish precise positioning during water dyno tuning.",
     ],
   },
   {
@@ -193,9 +184,9 @@ export const EXPERIENCES = [
     iconBg: "#accbe1",
     date: "Oct 2021 - Jun 2022",
     points: [
-      "I was elected as a student representative and advocated for 250 students, who were both online and in-person.",
-      "I led a 5-membered team to organize a school-wide talent show within a 3-week timeline after a 2-year COVID event hiatus. I also managed the 2022 graduate apparel, delivering results three months ahead of schedule.",
-      "I assisted in the marketing and sales of Candygram products to generate student budget funding.",
+      "I was elected as the schools student representative and advocated for 250 students who were both online and in-person.",
+      "I led a 5-membered team towards a school-wide talent show to revitalize student/school involvement after the COVID-19 pandemic.",
+      "I solo-managed the 2022 graduate apparel to foster a sense of community.",
     ],
   },
 ];
@@ -212,11 +203,21 @@ export const PROJECTS = [
     theme: "btn-back-red",
     name: "Mechanical Keyboard",
     description:
-      "Introducing my cutting-edge mechanical keyboard, an ongoing project built from complete scratch! From the switches and keycaps to the PCB board and drivers. It's designed for the ultimate typing experience. With linear switches, RGB lighting, and a X ms delay, it combines style and functionality.",
-    link: "/P1",
+      "Introducing my cutting-edge mechanical keyboard, an ongoing project built from complete scratch!",
+    link: "",
     target: "",
     date: "May 2024 - Present",
     type: "mechanical"
+  },
+  {
+    iconUrl: www,
+    theme: "btn-back-green",
+    name: "Mindbridge",
+    description: 'Co-built a WebApp that bridges communicative barriers for children on the spectrum, garnering a win against 300 others in a MLH Hackathon',
+    link: "www.mindbridge.com",
+    target: "_blank",
+    date: "Mar 2024",
+    type: "software"
   },
   {
     iconUrl: www,
@@ -227,25 +228,13 @@ export const PROJECTS = [
     target: "_blank",
     date: "Feb 2024 - Present",
     type: "software"
-
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-black",
-    name: "Mounting Jigs",
-    description:
-      "Encounter the many Mounting Jigs made and used to position other objects for joining processes! Implemented skills in reference geometry, surface modelling, and self-location techniques.",
-    link: "/P2",
-    target: "",
-    date: "",
-    type: ""
   },
   {
     iconUrl: rocket,
     theme: "btn-back-pink",
     name: "Model Rocket",
     description: "Embark on a journey into the sky with my Model Rocket project! Satisfy the love and get a glimpse of the aerospace industry. Thoroughly applied design optimization, finite element analysis, and computational fluid dynamic simulations.",
-    link: "/P3",
+    link: "",
     target: "",
     date: "Jan 2024",
     type: "",
@@ -256,7 +245,7 @@ export const PROJECTS = [
     theme: "btn-back-blue",
     name: "Iron-Man-Inspired Water Blaster",
     description: "Unleash your inner superhero with my team’s Water Blaster! Mechanically prototyped, 3D printed, and activated by water-pumped propulsion to reach a distance of 6 meters.",
-    link: "/P4",
+    link: "",
     target: "",
     date: "Oct 2023 - Nov 2024",
     type: "",
