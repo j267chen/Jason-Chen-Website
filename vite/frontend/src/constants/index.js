@@ -33,6 +33,8 @@ import {
   keyboard,
   watergun,
 
+  triumf,
+
 } from "../assets/icons";
 
 // sidebar links
@@ -86,7 +88,7 @@ export const SKILLS = [
     name: "Python",
     type: "Backend",
   },
-
+/*
   {
     imageUrl: javascript,
     name: "JavaScript",
@@ -117,7 +119,7 @@ export const SKILLS = [
     name: "React",
     type: "Frontend",
   },
-
+*/
 
 ];
 
@@ -156,27 +158,46 @@ export const returnhome = [
 // experiences
 export const EXPERIENCES = [
   {
-    title: "Mechanical Designer Co-op",
-    company_name: "UW Midnight Sun",
-    icon: uwms,
-    iconBg: "#fac36b",
-    date: "Jan 2024 - Present",
+    title: "Target R&D Engineering Student",
+    company_name: "TRIUMF",
+    icon: triumf,
+    iconBg: "#F5FBFF",
+    date: "Sep 2024 - Dec 2024",
     points: [
-      "I performed part failure analysis through SolidWorks FEA to identify minimal amount/size",
-      "I developed R&D experiments to validate product performance",
-      "I modelled, drew, and prototyped 18 DFM/A vehicle parts under comp regulations for CNC waterjetting and manufacturing",
-      "I presented design logs for feedback, ensuring alignment with project objectives while creating a repo for future integrity",
-      "I operated machinery to fabricate the vehicle's steering mechanism",
+      "Revolutionized a reusable target rabbit in SolidWorks to seal and cool radioactive material, applying DFMA principles and worst-case tolerance analysis, reducing annual operation costs by $40,000 (70%)",
+      "Led a cross-functional team of 9 through the end-to-end product life cycle, enhancing reliability, scalability, and sustainability",
+      "Conducted coupled fluid flow and conjugate heat transfer simulations in Ansys, implementing a mesh sensitivity study and parametrically optimizing geometry to balance heat dissipation by 8% and increase isotope production by 200%",
+      "Developed and tested 3D printed prototypes, iterating design and validating remote assembly, enabling drawing release",
+      "Prototyped a pneumatically-controlled transport system, performing motion studies and tests to control movement and mitigate collision impulse, extending component lifespan by 12%",
+      "Developed a magnetic rabbit detection system, researching into active induction and material compositions/properties"
     ],
   },
   {
-    title: "Mechanical Subteam Member",
-    company_name: "UW Formula Electric",
+    title: "Mechanical Designer",
+    company_name: "UW Midnight Sun Solar Car Team",
+    icon: uwms,
+    iconBg: "#fac36b",
+    date: "Jan 2024 - Apr 2024",
+    points: [
+      "Designed, drafted, and toleranced 18 DFMA vehicle parts and assembly jigs, ensuring seamless subsystem integration",
+      "Innovated a bolt drill guide from scrap metal, streamlined for efficient 3-axis milling, enabling in-house production of 116 holes for safety wiring and cotter pinning, cutting lead times by 50%",
+      "Performed Tresca failure analysis on battery box bars in Ansys, reducing testing by 66% and accelerating part release",
+      "Developed R&D experiments and stress tests to validate the load capacity and fracture points of a chassis-to-aerobody integration system, achieving a 2x safety factor to guarantee functionality before implementation",
+      "Generated CAD models of outsourced components to create functional assemblies, facilitating integration with existing systems",
+      "Presented design logs for feedback, ensuring alignment with project objectives while creating a repo for future integrity",
+    ],
+  },
+  {
+    title: "Powertrain Member",
+    company_name: "UW Formula Electric Race Team",
     icon: uwfe,
     iconBg: "#fbc3bc",
     date: "Sep 2023 - Dec 2023",
     points: [
-      "I collaborated on designing a bidirectional motor stand that was used to establish precise positioning during water dyno tuning.",
+      "Co-designed a bidirectional motor stand with a team of 5, utilizing GD&T to streamline assembly and enhance accuracy to 12 thou during water dyno fine-tuning, reducing damage to plastic shaft couplers by 50%",
+      "Conducted modal analysis in Ansys to mitigate vibrational resonance, minimizing component fatigue by X%",
+      "Performed a motion study to determine the motor’s range of movement, ensuring 0 collisions and ample spacial coverage",
+      "Operated a 3-axis mill to fabricate the vehicle’s steering mechanism, maintaining accuracy within 2-5 thou",
     ],
   },
   {
@@ -186,9 +207,9 @@ export const EXPERIENCES = [
     iconBg: "#accbe1",
     date: "Oct 2021 - Jun 2022",
     points: [
-      "I was elected as the schools student representative and advocated for 250 students who were both online and in-person.",
-      "I led a 5-membered team towards a school-wide talent show to revitalize student/school involvement after the COVID-19 pandemic.",
-      "I solo-managed the 2022 graduate apparel to foster a sense of community.",
+      "Solo-advocated for 250 students by facilitating active communication to ensure each voice was addressed, achieving a 95% rating",
+      "Spearheaded a 5-membered team towards a school-wide talent show to revitalize student and school involvement after a 2-year COVID hiatus, managing auditions, rehearsals, schedules, and administrative tasks within a 3-week timeline",
+      "Managed the 2022 graduate apparel served to foster a sense of community, designing 3 styles, holding online voting polls, and outsourcing to a clothing company, delivering results 3 months ahead of schedule",
     ],
   },
 ];
@@ -200,6 +221,19 @@ export const EXPERIENCES = [
 
 // projects
 export const PROJECTS = [
+  {
+    iconUrl: www,
+    theme: "btn-back-blue",
+    name: "Canva Portfolio",
+    description: "Introducing my Canva Portfolio, a collection of my recent projects and experiences!",
+    link: "https://www.canva.com/design/DAGIT572qkk/Z5Cg2OtrbEQQ3sScuDQdeg/view?utm_content=DAGIT572qkk&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    target: "_blank",
+    date: "",
+    type: "mechanical"
+
+
+  },
+    /*
   {
     iconUrl: keyboard,
     theme: "btn-back-red",
@@ -252,5 +286,6 @@ export const PROJECTS = [
     date: "Oct 2023 - Nov 2024",
     type: "",
   },
+  */
 ];
 //here we want to talk about purpose, and GENERAL result towards that purpose

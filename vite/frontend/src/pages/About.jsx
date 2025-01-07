@@ -135,7 +135,7 @@ const About = () => {
                     {experience.points.map((point, i) => (
                       <li
                         key={`Experience_${experience.title}_point_${i + 1}`}
-                        className="text-black-500/50 font-normal pl-1 text-sm"
+                        className="font-normal pl-1 text-sm"
                       >
                         {point}
                       </li>

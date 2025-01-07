@@ -40,6 +40,8 @@ import rocket from "./rocket.svg";
 import watergun from "./watergun.svg";
 import keyboard from "./keyboard.svg";
 
+import triumf from "./TRIUMF.png";
+
 // export icons
 export {
   css,
@@ -87,4 +89,5 @@ export {
   watergun,
   keyboard,
 
+  triumf,
 };
