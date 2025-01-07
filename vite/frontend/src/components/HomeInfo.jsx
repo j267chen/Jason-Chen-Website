@@ -8,7 +8,7 @@ const renderContent = {
     <div>
       <h1 className="text-xl lg:text-2xl sm:leading-snug text-center neo-brutalism-blue lg:py-5 px-10 text-white"> 
         <span className="font-semibold">Welcome to Jason Chen's Portfolio! </span>
-        <br/><span className="text-sm lg:test-xl">It is currently incomplete, but check out my about and projects sections! </span>
+        <br/><span className="text-sm lg:test-xl">Check out my about and projects sections! </span>
       </h1>
     </div>
   )
