@@ -86,7 +86,7 @@ export const SKILLS = [
     name: "Python",
     type: "Backend",
   },
-  /*
+
   {
     imageUrl: javascript,
     name: "JavaScript",
@@ -117,7 +117,7 @@ export const SKILLS = [
     name: "React",
     type: "Frontend",
   },
-  */
+
 
 ];
 
