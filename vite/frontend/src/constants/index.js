@@ -56,20 +56,20 @@ export const SKILLS = [
     type: "3D CAD",
   },
   {
+    imageUrl: ansys,
+    name: "Ansys",
+    type: "Finite Element Analysis (FEA), Computational Fluid Dynamics (CFD), Thermal Analysis",
+  },
+  {
     imageUrl: autocad,
     name: "AutoCAD",
     type: "2D CAD",
   },
-  {
-    imageUrl: ansys,
-    name: "Ansys",
-    type: "Finite Element Analysis (FEA)",
-  },
-  {
-    imageUrl: fusion,
-    name: "Fusion360",
-    type: "3D CAD",
-  },
+  //{
+    //imageUrl: fusion,
+    //name: "Fusion360",
+    //type: "3D CAD",
+  //},
   //{
     //imageUrl: revit,
     //name: "Revit",
@@ -86,6 +86,7 @@ export const SKILLS = [
     name: "Python",
     type: "Backend",
   },
+  /*
   {
     imageUrl: javascript,
     name: "JavaScript",
@@ -116,6 +117,7 @@ export const SKILLS = [
     name: "React",
     type: "Frontend",
   },
+  */
 
 ];
 
