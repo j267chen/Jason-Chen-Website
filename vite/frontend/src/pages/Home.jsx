@@ -9,6 +9,7 @@ import { HomeInfo } from "../components";
 // constants
 import { SITE_NAME } from "../constants";
 
+
 // home
 const Home = () => {
   const [currentStage] = useState(1);
@@ -16,13 +17,14 @@ const Home = () => {
     <>
       {/* update site title */}
       <Helmet>
-        <title>{SITE_NAME} | Portfolio</title>
+        <title>{SITE_NAME} | Portfolio </title>
       </Helmet>
 
         {/* current stage */}
         <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
           {<HomeInfo currentStage={currentStage} />}
         </div>
+        
 
     </>
   );

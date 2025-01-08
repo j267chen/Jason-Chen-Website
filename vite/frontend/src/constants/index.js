@@ -169,7 +169,7 @@ export const EXPERIENCES = [
       "Conducted coupled fluid flow and conjugate heat transfer simulations in Ansys, implementing a mesh sensitivity study and parametrically optimizing geometry to balance heat dissipation by 8% and increase isotope production by 200%",
       "Developed and tested 3D printed prototypes, iterating design and validating remote assembly, enabling drawing release",
       "Prototyped a pneumatically-controlled transport system, performing motion studies and tests to control movement and mitigate collision impulse, extending component lifespan by 12%",
-      "Developed a magnetic rabbit detection system, researching into active induction and material compositions/properties"
+      "Developed a magnetic rabbit detection system, researching into active induction, material properties, and manufacturing effects on stainless steel composition"
     ],
   },
   {
