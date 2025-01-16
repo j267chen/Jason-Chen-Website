@@ -195,7 +195,7 @@ export const EXPERIENCES = [
     date: "Sep 2023 - Dec 2023",
     points: [
       "Co-designed a bidirectional motor stand with a team of 5, utilizing GD&T to streamline assembly and enhance accuracy to 12 thou during water dyno fine-tuning, reducing damage to plastic shaft couplers by 50%",
-      "Conducted modal analysis in Ansys to mitigate vibrational resonance, minimizing component fatigue by X%",
+      "Conducted modal analysis in Ansys to mitigate vibrational resonance, minimizing component fatigue by 8%",
       "Performed a motion study to determine the motor’s range of movement, ensuring 0 collisions and ample spacial coverage",
       "Operated a 3-axis mill to fabricate the vehicle’s steering mechanism, maintaining accuracy within 2-5 thou",
     ],
